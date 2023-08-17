@@ -1,0 +1,170 @@
+html {
+
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Sora', sans-serif;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.username {
+
+    font-weight: 400;
+    font-size: 2em;
+
+}
+
+.description {
+    font-size: 1em;
+    color: #919193;
+    margin: 16px 0;
+}
+
+.container {
+
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+
+
+
+}
+
+.foto_perfil {
+
+    background-image: linear-gradient(to right, #5578BA, #40a376);
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 50px;
+
+
+
+}
+
+.list {
+
+
+    list-style: none;
+}
+
+.list_item {
+    display: flex;
+    background-image: linear-gradient(to right, #5578BA, #40a376);
+    width: 350px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 2em;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    transition: box-shadow .3s;
+    border: 1px solid #ccc;
+    gap: 1.2em;
+    margin: 1em 0;
+    color: white;
+
+
+
+}
+
+.list_item:hover {
+
+    box-shadow: 0 0 11px #40a376;
+
+}
+
+a:link {
+
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.insta::after {
+
+    background-image: url(./images/instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    content: "";
+
+}
+
+.tiktok::after {
+
+    background-image: url(./images/tiktok.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 35px;
+    display: inline-flex;
+    content: "";
+
+
+
+}
+
+.linkedin::after {
+
+    background-image: url(./images/linkedin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content: "";
+
+}
+
+.footer {
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    gap: 1.5em;
+
+}
+
+.icon {
+    display: flex;
+    background-image: linear-gradient(to right, #5578BA, #40a376);
+    border-radius: 50%;
+
+}
+
+.icon:hover {
+    box-shadow: 0 0 11px #40a376;
+
+}
+
+
+.img_foot {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    padding: 1em;
+    width: 1.8em;
+
+}
+
+@media screen and (min-width:815px) {
+    html {
+        font-size: 18px;
+    }
+}
